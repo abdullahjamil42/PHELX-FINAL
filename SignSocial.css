@@ -1,0 +1,118 @@
+/* set global styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #171717;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the form */
+form {
+  background-color: white;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+}
+
+@media (max-width: 1000px) {
+  form {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+/* style the heading */
+h1 {
+  text-align: center;
+  color: #171717;
+  margin-top: 15px;
+}
+
+/* style the inputs */
+input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  height: 45px;
+  margin: 0px 0px 20px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+/* style the submit button */
+button[type="submit"] {
+  width: 100%;
+  margin: 10px auto 30px;
+  display: table;
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: #171717;
+  border: none;
+  color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* style the Remember me label */
+.Remember input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  float: left;
+}
+
+/* style the forgot password link */
+.forgotPass {
+  float: right;
+  font-size: 14px;
+  color: #3f51b5;
+  cursor: pointer;
+}
+
+/* style the social buttons */
+.Social {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.Social button {
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  padding: 0px 10px;
+}
+
+.Social button i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.Social button.twitter-btn {
+  background-color: #26abfd;
+}
+
+.Social button.facebook-btn {
+  background-color: #3f68be;
+}
+
+.Social button.Google-btn {
+  background-color: red;
+}
